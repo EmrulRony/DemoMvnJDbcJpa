@@ -1,0 +1,13 @@
+create schema Student;
+
+use student;
+
+create table StudentInfo(
+studentId int not null,
+studentName varchar(20) not null
+);
+
+select * from StudentInfo;
+insert into StudentInfo values 
+(102,"Rony"),
+(103,"Khan");
